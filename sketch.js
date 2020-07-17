@@ -46,7 +46,6 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	 World.add(world, ground);
 	 
-	 bucket = new Bucket(400,300,50,100);
 
 
 
@@ -59,7 +58,7 @@ function setup() {
 
 function draw() {
 
-	bucket.display();
+	
 
   rectMode(CENTER);
   background(0);
